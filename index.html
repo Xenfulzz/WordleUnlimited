@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WORDLE∞</title>
+<title>Wordle Unlimited</title>
 <style>
   /* ===== FONTS ===== */
   @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&display=swap');
@@ -254,12 +254,12 @@
 
   /* ===== GAME BOARD ===== */
   #board-container {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0 4px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 20px; /* more space above and below */
+  margin-bottom: 10px;  /* adds gap before keyboard */
+}
 
   #board {
     display: grid;
@@ -950,7 +950,7 @@
     </label>
   </div>
 
-  <div class="menu-credits">• credits to xenfulz</div>
+  <div class="menu-credits">credits to xenfulz</div>
 </div>
 
 <!-- ============================= -->
@@ -995,7 +995,7 @@
     <div class="kb-row" id="kb-row-3"></div>
   </div>
 
-  <div class="game-credits">• credits to xenfulz</div>
+  <div class="game-credits">credits to xenfulz</div>
 </div>
 
 <!-- ============================= -->
@@ -1177,7 +1177,7 @@
     </div>
 
     <div style="text-align:center; margin-top:24px; font-size:11px; color:var(--text-muted); opacity:0.7;">
-      • credits to xenfulz
+      credits to xenfulz
     </div>
   </div>
 </div>
